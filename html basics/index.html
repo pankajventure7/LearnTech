@@ -10,11 +10,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  height: 200px;
+  height: 250px;
+  width: 200px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 248px;
   width: 20%;
+  float: right;
+  padding: 6px 10px;
 }
 
  .article_container {
@@ -121,18 +131,35 @@ body {
 </div>
 <div class="article_container">
 <div class="top"></div>
-<div class="card">
+<div class="grid-container">
+<div class="card1">
   <img src="sprint-logo.png" alt="Avatar" style="width: -webkit-fill-available">
   <div class="container">
     <h4><b>Learn Spring Framework</b></h4> 
   </div>
 </div>
-<div class="card">
+
+<div class="card1" style="margin-right: 60px;">
+  <img src="dsa.png" alt="Avatar" style="width: 216px">
+  <div class="container">
+    <h4><b>Why DSA is important ?</b></h4> 
+  </div>
+</div>
+<div class="card1"  style="margin-right: 75px;">
   <img src="sprint-logo.png" alt="Avatar" style="width: -webkit-fill-available">
+  <div class="container">
+    <h4><b>Learn Python from scratch</b></h4> 
+  </div>
+</div>
+<a href="pages\top_5_Programming.html">
+<div class="card"   style="margin-right: 50px;">
+  <img src="Programming-logo.png" alt="Avatar" style="width: 200px">
   <div class="container">
     <h4><b>Top 5 Programming Languages</b></h4> 
   </div>
 </div>
+</a>
+
 </div>
 
 </body>
